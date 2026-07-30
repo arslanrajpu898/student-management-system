@@ -1,0 +1,9 @@
+body { margin: 0; font-family: system-ui, sans-serif; background: #f5f6fa; color: #1a1a1a; }
+.auth-page, .dashboard-page, .list-page { max-width: 480px; margin: 60px auto; padding: 24px; background: #fff; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
+.list-page { max-width: 800px; }
+form { display: flex; flex-direction: column; gap: 8px; }
+input { padding: 8px; border: 1px solid #ccc; border-radius: 4px; }
+button { margin-top: 12px; padding: 10px; border: none; border-radius: 4px; background: #2563eb; color: #fff; cursor: pointer; }
+.error-text { color: #dc2626; }
+table { width: 100%; border-collapse: collapse; }
+th, td { text-align: left; padding: 8px; border-bottom: 1px solid #eee; }
